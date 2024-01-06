@@ -89,4 +89,16 @@ jobs:
     fail-on-cache-miss: # opcional, el valor predeterminado es falso
     # Comprobar si existe una entrada de caché para las entradas dadas (clave, claves de restauración) sin descargar el caché
     solo búsqueda: # opcional, el valor predeterminado es falso
+          https://github.com/DawallAZllon91/fluffy-palm-tree/actions/workflows/bandit.yml/badge.svg?branch=Principal&event=delete
+            - nombre: Integrar Astillero
+  # Puedes fijar la confirmación exacta o la versión.
+  # usos: astillero/shipyard-action@03537967aafbeb9d6237b03f47e5e483e8f7af9d
+  usos: astillero/shipyard-action@1.0.0
+  con:
+    # Token API de Shipyard utilizado para obtener las variables de entorno necesarias de Shipyard.
+    token de API:
+    # Número de minutos que se deben esperar hasta que llegue el entorno del Astillero antes de que expire el tiempo de espera.
+    minutos de tiempo de espera: # opcional
+    # Filtrar el entorno por nombre de la aplicación en la aplicación Shipyard.
+    nombre de la aplicación: # opcional
           
